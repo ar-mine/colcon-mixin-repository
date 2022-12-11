@@ -10,7 +10,7 @@
             "cmake-args": ["-DCMAKE_BUILD_TYPE=RelWithDebInfo"]
         },
         "release": {
-            "cmake-args": ["-DCMAKE_BUILD_TYPE=Release"]
+            "cmake-args": ["-DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_BUILD_TYPE=Release"]
         }
     }
 }
